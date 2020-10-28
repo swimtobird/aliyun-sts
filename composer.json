@@ -1,0 +1,23 @@
+{
+  "name": "swimtobird/aliyun-sts",
+  "type": "library",
+  "authors": [
+    {
+      "name": "swimtobird",
+      "email": "swimtobird@gmail.com"
+    }
+  ],
+  "require": {
+    "bmslaravel/aliyun-sts": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Swimtobird\\Sts\\": "src/"
+    }
+  },
+  "extra": {
+    "hyperf": {
+      "config": "Swimtobird\\Sts\\ConfigProvider"
+    }
+  }
+}
